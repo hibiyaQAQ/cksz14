@@ -2,9 +2,9 @@
 backendSpecific:
   OpenAI-Compatible: # (ForGal/ForNovel/r1/Gendic)OpenAI API兼容接口通用
     tokens:
-      - token: sk-jhj
-        endpoint: https://cli2api-jhj.zeabur.app # 请求地址，加不加v1都可以
-        modelName: claude-4-6-opus-thinking
+      - token: sk-r4jiI7xpktxg5aV1AmzKtPBQVvIoRMnlVtaXTX3ovbgY80UM
+        endpoint: https://runanytime.hxi.me # 请求地址，加不加v1都可以
+        modelName: claude-opus-4-6
         stream: true # 支持为单个token设置流式请求
     tokenStrategy: "random" # 令牌策略，random随机轮询；fallback优先第一个，出现[API错误]或[解析错误]时使用下一个
     checkAvailable: true # 翻译前检查API是否可用[True/False]
